@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CaviarDreams.ttf">
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="74I-p0-ATJ" customClass="ReservationView" customModule="ProFlyt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Piper Seneca 5 Seats" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X67-2b-lbR">
+                    <rect key="frame" x="239" y="0.0" width="167" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 passengers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJb-vF-3HS">
+                    <rect key="frame" x="302" y="284" width="104" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KTPA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbY-PB-dwr">
+                    <rect key="frame" x="16" y="312" width="64" height="35"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="30"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tampa, Florida" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvP-36-Rib">
+                    <rect key="frame" x="16" y="351" width="94" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KATL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oB0-nm-AUo">
+                    <rect key="frame" x="335" y="312" width="63" height="35"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="30"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hartsfield, Atlanta" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pvv-XR-2du">
+                    <rect key="frame" x="286" y="351" width="112" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="≫ ≫ ≫" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R06-Ei-ivz">
+                    <rect key="frame" x="88" y="312" width="239" height="35"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14:30" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dei-6e-HU5">
+                    <rect key="frame" x="33" y="388" width="46" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <color key="textColor" red="0.47450980390000003" green="0.47450980390000003" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29 Jul, 2015" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVR-7M-bDs">
+                    <rect key="frame" x="16" y="412" width="79" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                    <color key="textColor" red="0.47450980390000003" green="0.47450980390000003" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16:55" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6E5-jM-Dk5">
+                    <rect key="frame" x="336" y="388" width="46" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <color key="textColor" red="0.47450980390000003" green="0.47450980390000003" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="29 Jul, 2015" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbh-OO-GFG">
+                    <rect key="frame" x="319" y="412" width="79" height="17"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                    <color key="textColor" red="0.47450980390000003" green="0.47450980390000003" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2h 33min" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JEe-ck-TsP">
+                    <rect key="frame" x="170" y="388" width="74" height="21"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="18"/>
+                    <color key="textColor" red="0.5450980392" green="0.01176470588" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Seats available for sale" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dks-jU-5Fl">
+                    <rect key="frame" x="8" y="443" width="201" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="could be as low as $350/seat" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7l-zI-L2I">
+                    <rect key="frame" x="24" y="463" width="235" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I give ProFlyt permission to market extra seats" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0f-Pb-9nY">
+                    <rect key="frame" x="48" y="496" width="358" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amenities:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVF-ZZ-7K0">
+                    <rect key="frame" x="8" y="524" width="74" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80B-G4-Nnn">
+                    <rect key="frame" x="8" y="548" width="398" height="144"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="144" id="qRq-NL-cUZ"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luggage restrictions: 500 lbs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amK-gJ-Fp6">
+                    <rect key="frame" x="8" y="700" width="398" height="20"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="17"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtJ-xK-cjA">
+                    <rect key="frame" x="0.0" y="28" width="414" height="248"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Hty-yi-5tW">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="248"/>
+                            <animations/>
+                        </imageView>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="RQA-VF-vcp">
+                            <rect key="frame" x="189" y="106" width="37" height="37"/>
+                            <animations/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="Hty-yi-5tW" firstAttribute="leading" secondItem="jtJ-xK-cjA" secondAttribute="leading" id="2FA-4H-NU8"/>
+                        <constraint firstAttribute="centerX" secondItem="RQA-VF-vcp" secondAttribute="centerX" id="I6U-BY-mVw"/>
+                        <constraint firstAttribute="bottom" secondItem="Hty-yi-5tW" secondAttribute="bottom" id="TI2-2q-Hd9"/>
+                        <constraint firstAttribute="centerY" secondItem="RQA-VF-vcp" secondAttribute="centerY" id="dzH-uI-rTK"/>
+                        <constraint firstItem="Hty-yi-5tW" firstAttribute="top" secondItem="jtJ-xK-cjA" secondAttribute="top" id="foo-c3-gRG"/>
+                        <constraint firstAttribute="width" secondItem="jtJ-xK-cjA" secondAttribute="height" multiplier="10:6" id="obu-ti-TsE"/>
+                        <constraint firstAttribute="trailing" secondItem="Hty-yi-5tW" secondAttribute="trailing" id="wV1-ZR-It7"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" alpha="0.80000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hsE-P5-okm">
+                    <rect key="frame" x="8" y="491" width="40" height="30"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="DGW-ob-x6K"/>
+                        <constraint firstAttribute="width" constant="40" id="Jhy-yj-Yoa"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" image="unchecked_checkbox">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="checked_checkbox"/>
+                    <connections>
+                        <action selector="setPermission:" destination="74I-p0-ATJ" eventType="touchUpInside" id="TII-DP-FGf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="6E5-jM-Dk5" firstAttribute="top" secondItem="Pvv-XR-2du" secondAttribute="bottom" constant="20" id="29B-u1-f8z"/>
+                <constraint firstAttribute="trailing" secondItem="Qbh-OO-GFG" secondAttribute="trailing" constant="16" id="31h-Mr-c6T"/>
+                <constraint firstItem="CVR-7M-bDs" firstAttribute="top" secondItem="Dei-6e-HU5" secondAttribute="bottom" constant="4" id="8W2-vm-gtB"/>
+                <constraint firstItem="bbY-PB-dwr" firstAttribute="centerY" secondItem="oB0-nm-AUo" secondAttribute="centerY" id="9Mk-Pu-h0z"/>
+                <constraint firstAttribute="trailing" secondItem="R0f-Pb-9nY" secondAttribute="trailing" constant="8" id="AC5-MR-UGk"/>
+                <constraint firstItem="X67-2b-lbR" firstAttribute="top" secondItem="74I-p0-ATJ" secondAttribute="top" id="AL5-Nf-HDZ"/>
+                <constraint firstItem="80B-G4-Nnn" firstAttribute="top" secondItem="LVF-ZZ-7K0" secondAttribute="bottom" constant="4" id="CcD-dl-Hv4"/>
+                <constraint firstAttribute="trailing" secondItem="80B-G4-Nnn" secondAttribute="trailing" constant="8" id="Cm7-JZ-Zu1"/>
+                <constraint firstAttribute="trailing" secondItem="Pvv-XR-2du" secondAttribute="trailing" constant="16" id="Dd1-jL-0E8"/>
+                <constraint firstItem="R06-Ei-ivz" firstAttribute="leading" secondItem="bbY-PB-dwr" secondAttribute="trailing" constant="8" id="FnH-yH-lqo"/>
+                <constraint firstItem="Dei-6e-HU5" firstAttribute="top" secondItem="nvP-36-Rib" secondAttribute="bottom" constant="20" id="GZI-fR-Dd7"/>
+                <constraint firstItem="amK-gJ-Fp6" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="8" id="KgI-pW-oKx"/>
+                <constraint firstAttribute="bottom" secondItem="amK-gJ-Fp6" secondAttribute="bottom" constant="16" id="LJs-HP-vBl"/>
+                <constraint firstItem="dks-jU-5Fl" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="8" id="MIL-mo-cvo"/>
+                <constraint firstAttribute="trailing" secondItem="oB0-nm-AUo" secondAttribute="trailing" constant="16" id="OrI-pf-D6J"/>
+                <constraint firstAttribute="trailing" secondItem="GJb-vF-3HS" secondAttribute="trailing" constant="8" id="UOI-OO-I59"/>
+                <constraint firstItem="bbY-PB-dwr" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="16" id="UlF-hT-ea3"/>
+                <constraint firstAttribute="centerX" secondItem="JEe-ck-TsP" secondAttribute="centerX" id="Vq5-w4-d1G"/>
+                <constraint firstItem="6E5-jM-Dk5" firstAttribute="centerX" secondItem="Qbh-OO-GFG" secondAttribute="centerX" id="Y4c-Dd-jCt"/>
+                <constraint firstItem="amK-gJ-Fp6" firstAttribute="top" secondItem="80B-G4-Nnn" secondAttribute="bottom" constant="8" id="YH8-NV-4hX"/>
+                <constraint firstItem="bbY-PB-dwr" firstAttribute="centerY" secondItem="R06-Ei-ivz" secondAttribute="centerY" id="Ybr-zu-nHk"/>
+                <constraint firstItem="nvP-36-Rib" firstAttribute="top" secondItem="R06-Ei-ivz" secondAttribute="bottom" constant="4" id="YtU-zB-Vg1"/>
+                <constraint firstItem="oB0-nm-AUo" firstAttribute="top" secondItem="GJb-vF-3HS" secondAttribute="bottom" constant="8" id="ZPG-YO-Ylt"/>
+                <constraint firstItem="LVF-ZZ-7K0" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="8" id="ZzH-Jq-NpZ"/>
+                <constraint firstItem="CVR-7M-bDs" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="16" id="aD2-D0-HdO"/>
+                <constraint firstItem="oB0-nm-AUo" firstAttribute="leading" secondItem="R06-Ei-ivz" secondAttribute="trailing" constant="8" id="aUU-wo-tld"/>
+                <constraint firstItem="x7l-zI-L2I" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="24" id="cNC-yc-cmY"/>
+                <constraint firstItem="nvP-36-Rib" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="16" id="cRi-wc-Q1P"/>
+                <constraint firstItem="jtJ-xK-cjA" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" id="cpa-iN-EHO"/>
+                <constraint firstItem="R0f-Pb-9nY" firstAttribute="leading" secondItem="hsE-P5-okm" secondAttribute="trailing" id="doX-GA-BSZ"/>
+                <constraint firstItem="dks-jU-5Fl" firstAttribute="top" secondItem="CVR-7M-bDs" secondAttribute="bottom" constant="14" id="e6B-Ya-wpd"/>
+                <constraint firstItem="80B-G4-Nnn" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="8" id="iGf-2a-TEP"/>
+                <constraint firstItem="GJb-vF-3HS" firstAttribute="top" secondItem="jtJ-xK-cjA" secondAttribute="bottom" constant="8" id="jXS-Hl-H5Y"/>
+                <constraint firstItem="x7l-zI-L2I" firstAttribute="top" secondItem="dks-jU-5Fl" secondAttribute="bottom" id="lyO-fn-PNe"/>
+                <constraint firstItem="jtJ-xK-cjA" firstAttribute="top" secondItem="X67-2b-lbR" secondAttribute="bottom" constant="8" id="mfp-G9-Y66"/>
+                <constraint firstItem="6E5-jM-Dk5" firstAttribute="centerY" secondItem="JEe-ck-TsP" secondAttribute="centerY" id="nJ2-N3-gmI"/>
+                <constraint firstItem="hsE-P5-okm" firstAttribute="leading" secondItem="74I-p0-ATJ" secondAttribute="leading" constant="8" id="pFa-6F-Pfn"/>
+                <constraint firstItem="R0f-Pb-9nY" firstAttribute="centerY" secondItem="hsE-P5-okm" secondAttribute="centerY" id="qJL-N3-ZiP"/>
+                <constraint firstItem="6E5-jM-Dk5" firstAttribute="centerY" secondItem="Dei-6e-HU5" secondAttribute="centerY" id="qqs-s0-Yfw"/>
+                <constraint firstAttribute="trailing" secondItem="X67-2b-lbR" secondAttribute="trailing" constant="8" id="rHz-Lf-KbW"/>
+                <constraint firstItem="Pvv-XR-2du" firstAttribute="top" secondItem="R06-Ei-ivz" secondAttribute="bottom" constant="4" id="rmT-IJ-ywD"/>
+                <constraint firstItem="hsE-P5-okm" firstAttribute="top" secondItem="x7l-zI-L2I" secondAttribute="bottom" constant="8" id="sKZ-ok-OhA"/>
+                <constraint firstAttribute="trailing" secondItem="jtJ-xK-cjA" secondAttribute="trailing" id="snn-lE-9Wc"/>
+                <constraint firstItem="LVF-ZZ-7K0" firstAttribute="top" secondItem="R0f-Pb-9nY" secondAttribute="bottom" constant="8" id="spa-eL-tix"/>
+                <constraint firstItem="Qbh-OO-GFG" firstAttribute="top" secondItem="6E5-jM-Dk5" secondAttribute="bottom" constant="4" id="u7i-f2-vyK"/>
+                <constraint firstItem="CVR-7M-bDs" firstAttribute="centerX" secondItem="Dei-6e-HU5" secondAttribute="centerX" id="vnZ-mp-cUn"/>
+                <constraint firstAttribute="trailing" secondItem="amK-gJ-Fp6" secondAttribute="trailing" constant="8" id="xJC-rH-HuZ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <connections>
+                <outlet property="amenitiesTextView" destination="80B-G4-Nnn" id="Tbm-wf-uEo"/>
+                <outlet property="availableSeatsForSaleLabel" destination="dks-jU-5Fl" id="HqR-3P-Fgj"/>
+                <outlet property="availableSeatsLabel" destination="X67-2b-lbR" id="oSf-bh-rxL"/>
+                <outlet property="departureAirportNameLabel" destination="bbY-PB-dwr" id="Wjj-X3-E7B"/>
+                <outlet property="departureCityLabel" destination="nvP-36-Rib" id="xY3-D4-C6G"/>
+                <outlet property="departureDateLabel" destination="CVR-7M-bDs" id="ES7-5x-jWo"/>
+                <outlet property="departureTimeLabel" destination="Dei-6e-HU5" id="PYb-le-uvs"/>
+                <outlet property="destinationAirportNameLabel" destination="oB0-nm-AUo" id="fgR-ie-1S4"/>
+                <outlet property="destinationCityLabel" destination="Pvv-XR-2du" id="gb5-wy-mFr"/>
+                <outlet property="destinationDateLabel" destination="Qbh-OO-GFG" id="ZpO-n3-tv5"/>
+                <outlet property="destinationTimeLabel" destination="6E5-jM-Dk5" id="z2G-yp-mJZ"/>
+                <outlet property="flightTimeLabel" destination="JEe-ck-TsP" id="aJk-nE-pJ8"/>
+                <outlet property="luggageRestrictionsLabel" destination="amK-gJ-Fp6" id="TOg-pu-TTU"/>
+                <outlet property="passensersLabel" destination="GJb-vF-3HS" id="eHG-RI-JZu"/>
+                <outlet property="permissionCheckbox" destination="hsE-P5-okm" id="jEz-oW-XUp"/>
+                <outlet property="permissionLabel" destination="R0f-Pb-9nY" id="Fz5-B1-Ewd"/>
+                <outlet property="picActivityIndicator" destination="RQA-VF-vcp" id="GOx-47-JhQ"/>
+                <outlet property="placeHolderImage" destination="Hty-yi-5tW" id="bE5-Cr-HfG"/>
+                <outlet property="placeHolderImageContainer" destination="jtJ-xK-cjA" id="Hrw-gh-heq"/>
+                <outlet property="pricePerSeatLabel" destination="x7l-zI-L2I" id="7DZ-Mi-Eg4"/>
+            </connections>
+            <point key="canvasLocation" x="552" y="38"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background" width="750" height="1295"/>
+        <image name="checked_checkbox" width="25" height="25"/>
+        <image name="unchecked_checkbox" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="CaviarDreams.ttf">
+            <string>CaviarDreams</string>
+            <string>CaviarDreams</string>
+        </mutableArray>
+        <mutableArray key="CaviarDreams_Bold.ttf">
+            <string>CaviarDreams-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="V1m-cM-v8d" customClass="CustomInfoWindow" customModule="ProFlyt" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB" customClass="CustomInfoWindowBackgroundView" customModule="ProFlyt" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="115"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ucz-Um-fsy">
+                            <rect key="frame" x="8" y="8" width="284" height="22"/>
+                            <fontDescription key="fontDescription" name="CaviarDreams-Bold" family="Caviar Dreams" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbo-bT-9S9">
+                            <rect key="frame" x="8" y="30" width="284" height="17"/>
+                            <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Rp-II-B8Y">
+                            <rect key="frame" x="8" y="55" width="284" height="17"/>
+                            <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCn-m7-Z3P">
+                            <rect key="frame" x="8" y="80" width="284" height="30"/>
+                            <state key="normal" title="Button">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vCn-m7-Z3P" secondAttribute="trailing" constant="8" id="1DN-QB-z01"/>
+                        <constraint firstItem="vCn-m7-Z3P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="3ab-eR-fR8"/>
+                        <constraint firstItem="Ucz-Um-fsy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="EPx-cm-Gfy"/>
+                        <constraint firstAttribute="trailing" secondItem="5Rp-II-B8Y" secondAttribute="trailing" constant="8" id="K3f-K8-GpS"/>
+                        <constraint firstItem="Cbo-bT-9S9" firstAttribute="top" secondItem="Ucz-Um-fsy" secondAttribute="bottom" id="KYM-sg-NzZ"/>
+                        <constraint firstItem="Cbo-bT-9S9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="PkQ-c2-8kC"/>
+                        <constraint firstAttribute="trailing" secondItem="Cbo-bT-9S9" secondAttribute="trailing" constant="8" id="SEl-0s-CBp"/>
+                        <constraint firstItem="5Rp-II-B8Y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Yyh-s0-cte"/>
+                        <constraint firstItem="5Rp-II-B8Y" firstAttribute="top" secondItem="Cbo-bT-9S9" secondAttribute="bottom" constant="8" id="aN8-h4-FZ4"/>
+                        <constraint firstAttribute="trailing" secondItem="Ucz-Um-fsy" secondAttribute="trailing" constant="8" id="ah7-BU-p4j"/>
+                        <constraint firstItem="vCn-m7-Z3P" firstAttribute="top" secondItem="5Rp-II-B8Y" secondAttribute="bottom" constant="8" id="e66-eP-t85"/>
+                        <constraint firstItem="Ucz-Um-fsy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="psG-c4-eYV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="leading" secondItem="V1m-cM-v8d" secondAttribute="leading" id="Bhy-bE-uaw"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="top" secondItem="V1m-cM-v8d" secondAttribute="top" id="PRM-bh-woM"/>
+                <constraint firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="e4W-sM-7NI"/>
+                <constraint firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="jjA-me-195"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="airportICAO" destination="5Rp-II-B8Y" id="pUh-Qi-JjU"/>
+                <outlet property="airportNameLabel" destination="Ucz-Um-fsy" id="F98-dE-lm5"/>
+                <outlet property="chooseButton" destination="vCn-m7-Z3P" id="Wey-YB-98i"/>
+                <outlet property="cityStateLabel" destination="Cbo-bT-9S9" id="cSM-8y-94x"/>
+            </connections>
+            <point key="canvasLocation" x="320" y="415.5"/>
+        </view>
+    </objects>
+</document>

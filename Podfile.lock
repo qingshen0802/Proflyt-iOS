@@ -1,0 +1,107 @@
+PODS:
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (3.1.1)
+  - APTimeZones (1.1)
+  - Bolts (1.4.0):
+    - Bolts/AppLinks (= 1.4.0)
+    - Bolts/Tasks (= 1.4.0)
+  - Bolts/AppLinks (1.4.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.4.0)
+  - GoogleMaps (1.10.5)
+  - HanekeSwift (0.10.0)
+  - HNKGooglePlacesAutocomplete (1.1.1):
+    - HNKGooglePlacesAutocomplete/Models (= 1.1.1)
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKGooglePlacesAutocomplete/Models (1.1.1):
+    - HNKGooglePlacesAutocomplete/Models/Networking (= 1.1.1)
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKGooglePlacesAutocomplete/Models/Networking (1.1.1):
+    - HNKServerFacade (~> 0.3)
+    - Mantle (~> 2.0)
+  - HNKServerFacade (0.3.0):
+    - AFNetworking (~> 2.5)
+  - IQKeyboardManager (3.3.4)
+  - JTSImageViewController (1.5.1)
+  - Kanna (1.0.2)
+  - Mantle (2.0.5):
+    - Mantle/extobjc (= 2.0.5)
+  - Mantle/extobjc (2.0.5)
+  - MBProgressHUD (0.9.1)
+  - MCLScrollViewSlider (1.0)
+  - Parse (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+  - ParseCrashReporting (1.9.1):
+    - Bolts/Tasks (>= 1.4.0)
+    - Parse (~> 1.9.1)
+  - ParseUI (1.1.6):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - SwiftyJSON (2.3.1)
+  - SWRevealViewController (2.3.0)
+  - SWXMLHash (2.0.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - APTimeZones
+  - Bolts
+  - GoogleMaps
+  - HanekeSwift
+  - HNKGooglePlacesAutocomplete
+  - IQKeyboardManager
+  - JTSImageViewController
+  - Kanna
+  - MBProgressHUD
+  - MCLScrollViewSlider
+  - Parse
+  - ParseCrashReporting
+  - ParseUI
+  - SwiftyJSON
+  - SWRevealViewController
+  - SWXMLHash
+
+SPEC CHECKSUMS:
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  Alamofire: 9b0a7188b961a03914a99304488bd226b0e46c0e
+  APTimeZones: ddb9aca50fff41d6313eb29d86d37b1edf9d2942
+  Bolts: 0e9bce58b9b9f5e8a7a4d47b16d2fabec289072b
+  GoogleMaps: da51c62c338c2d9c47cdad470a0d1e0e4b8544e4
+  HanekeSwift: d6f5bdf9dbdbbc09d59623b2c1d533e46463dd4d
+  HNKGooglePlacesAutocomplete: e3628e130ad9c6b909760bf314b98227b03e708f
+  HNKServerFacade: 0fa3839353480b8862563a34903ad1406a38b4c9
+  IQKeyboardManager: ac803e61e5b50efae6b3aeedd95a02c7c7d3b2b3
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  Kanna: 059afb193a9f8ea34f46cb55a8b11bf4257efad8
+  Mantle: 1912395033f601de5adc8ee91e48f46e4c7051ad
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MCLScrollViewSlider: 00fb980c2ef585c4d0cef5634c5ba842a334e44e
+  Parse: 54a965c8c19a6dde90284ab654dbcc77ef8c001b
+  ParseCrashReporting: c5ea641e698d576f081f080dff06877ef831d30a
+  ParseUI: 8a22e448c03f825203d8c379c80523517f68baa3
+  SwiftyJSON: 592b53bee5ef3dd9b3bebc6b9cb7ee35426ae8c3
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  SWXMLHash: 9e6bd7db2e8275eaf3d2082265623d6e749e169d
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6E08FED9-4C3A-4251-A2C2-C3E5C1C9FC4A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ProFlyt</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>75AA95FF8736CEA8A3153866B6F47E05101D6032</key>
+		<string>https://github.com/SimonWeingand/ProFlyt.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ProFlyt.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>75AA95FF8736CEA8A3153866B6F47E05101D6032</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SimonWeingand/ProFlyt.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>75AA95FF8736CEA8A3153866B6F47E05101D6032</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>75AA95FF8736CEA8A3153866B6F47E05101D6032</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ProFlyt</string>
+		</dict>
+	</array>
+</dict>
+</plist>
